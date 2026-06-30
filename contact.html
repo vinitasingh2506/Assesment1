@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <style>
+    .contact {
+    background-color: white;
+    margin: 30px;
+    padding: 25px;
+    border: 2px solid #2874a6;
+    border-radius: 10px;
+    }
+    .contact h1{
+        color:#1b4f72;
+        text-align: center;
+    }
+.contact h2 {
+    color: #1b4f72;
+    text-align: center;
+}
+
+input{
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2874a6;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+th {
+    background-color: #2874a6;
+    color: white;
+    border: 1px solid #333;
+    pad: 30px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+     </style>
+</head>
+<body>
+    <div class="contact">
+
+        <h1>Contact Us</h1>
+
+        <div class="form">
+            <form>
+                <label>Name:</label><br>
+                <input type="text" name="name" placeholder="enter your name" required><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" name = "email" placeholder="enter your email" required><br><br>
+
+                <label>Message:</label><br>
+                <textarea rows="4" cols="15" placeholder="enter your message"></textarea>
+                <br><br>
+
+                <button type="submit">sumbit</button>
+                <button type="reset">reset</button>
+            </form>
+        </div>
+        <div class="details">
+        <h2>Contact Details</h2>
+
+        <table>
+            <tr>
+                <th>Department</th>
+                <th>Contact Number</th>
+            </tr>
+
+            <tr>
+                <td>Admissions Office</td>
+                <td>987456321</td>
+            </tr>
+
+            <tr>
+                <td>Administration</td>
+                <td>9876501234</td>
+            </tr>
+
+            <tr>
+                <td>Placement Cell</td>
+                <td>1236547890</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+
+</body>
+</html>
